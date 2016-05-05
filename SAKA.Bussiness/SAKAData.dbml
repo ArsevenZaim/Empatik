@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Empatik" Class="SAKADataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=Arseven;Initial Catalog=Empatik;Integrated Security=True" SettingsObjectName="SAKA.Bussiness.Properties.Settings" SettingsPropertyName="EmpatikConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.KPI" Member="KPIs">
+    <Type Name="KPI">
+      <Column Name="Name" Type="System.String" DbType="NVarChar(400) NOT NULL" CanBeNull="false" />
+      <Column Name="Target" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Period" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="ThresHold" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="ThresHold_Type" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Unit" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="Creation_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Modification_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="KPI_KPI_CALCULATION_LOG" Member="KPI_CALCULATION_LOGs" ThisKey="Id" OtherKey="Kpi_Id" Type="KPI_CALCULATION_LOG" />
+      <Association Name="KPI_KPI_VALUE" Member="KPI_VALUEs" ThisKey="Id" OtherKey="Kpi_Id" Type="KPI_VALUE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KPI_CALCULATION_LOG" Member="KPI_CALCULATION_LOGs">
+    <Type Name="KPI_CALCULATION_LOG">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Success" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Exception_Message" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Kpi_Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="KPI_KPI_CALCULATION_LOG" Member="KPI" ThisKey="Kpi_Id" OtherKey="Id" Type="KPI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KPI_VALUE" Member="KPI_VALUEs">
+    <Type Name="KPI_VALUE">
+      <Column Name="Kpi_Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Target" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="ThresHold" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="ThresHold_Type" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="KPI_KPI_VALUE" Member="KPI" ThisKey="Kpi_Id" OtherKey="Id" Type="KPI" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

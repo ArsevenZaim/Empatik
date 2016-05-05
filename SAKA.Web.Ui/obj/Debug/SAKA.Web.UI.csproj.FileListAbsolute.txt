@@ -1,0 +1,10 @@
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\bin\SAKA.Web.Ui.dll.config
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\bin\SAKA.Web.Ui.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\bin\SAKA.Web.Ui.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\bin\SAKA.DTO.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\bin\SAKA.Service.Contract.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\bin\SAKA.DTO.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\bin\SAKA.Service.Contract.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\obj\Debug\SAKA.Web.UI.csprojResolveAssemblyReference.cache
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\obj\Debug\SAKA.Web.Ui.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Web.Ui\obj\Debug\SAKA.Web.Ui.pdb

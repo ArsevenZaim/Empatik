@@ -1,0 +1,7 @@
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Bussiness\bin\Debug\SAKA.Bussiness.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Bussiness\bin\Debug\SAKA.Bussiness.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Bussiness\bin\Debug\SAKA.DTO.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Bussiness\bin\Debug\SAKA.DTO.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Bussiness\obj\Debug\SAKA.Bussiness.csprojResolveAssemblyReference.cache
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Bussiness\obj\Debug\SAKA.Bussiness.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Bussiness\obj\Debug\SAKA.Bussiness.pdb

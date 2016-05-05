@@ -1,0 +1,5 @@
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.DTO\bin\Debug\SAKA.DTO.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.DTO\bin\Debug\SAKA.DTO.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.DTO\obj\Debug\SAKA.DTO.csprojResolveAssemblyReference.cache
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.DTO\obj\Debug\SAKA.DTO.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.DTO\obj\Debug\SAKA.DTO.pdb

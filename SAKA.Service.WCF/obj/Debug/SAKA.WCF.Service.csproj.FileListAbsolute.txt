@@ -1,0 +1,12 @@
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.Service.WCF.dll.config
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.Service.WCF.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.Service.WCF.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.Bussiness.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.DTO.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.Service.Contract.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.Bussiness.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.DTO.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\bin\SAKA.Service.Contract.pdb
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\obj\Debug\SAKA.WCF.Service.csprojResolveAssemblyReference.cache
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\obj\Debug\SAKA.Service.WCF.dll
+C:\Users\As\Documents\Visual Studio 2013\Projects\SAKA\SAKA.Service.WCF\obj\Debug\SAKA.Service.WCF.pdb
